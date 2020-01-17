@@ -1,44 +1,24 @@
-# 01 HTML CSS Git: Code Refactor
+## Changes to the Head Element
+Meta tag had an extra forwards lash in it. I removed that.
+The title element was outside of the head element.
+The title element was not self explanatory. I changed it to the "Horiseon Marking Agency”
+Declaring language is a self closing element, so i removed the extra closing tag.
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+## Changes to "img" element
+None of the "img” elements had alt attributes. I added attributes to all of them.
+Some “img” elements had closing tags and some didn’t. I fixed them all with only self-closing tags.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+## Page-jump URLS 
+The page-jump urls for search engine Optimization and Social Marketing did not work before. I recreated their IDs and classes and are working now.
 
-> Always leave the code you are editing a little cleaner than you found it.
+## Indenting
+I also made some indenting changes to the code.
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+## Code clean-up
+I cleaned up the code itself so it is easy to read.
 
-## User Story
+## Semantic Elements Usage
+Over all the orginaztion of the code was good and most elements were used semantically.
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## CSS Code
+The CSS code was used properlly with its proper properties.
